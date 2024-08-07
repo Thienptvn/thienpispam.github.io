@@ -1,5 +1,6 @@
 <?php
-$sdt = isset($_GET['sdt']) ? $_GET['sdt'] : 'Giá trị không được cung cấp';
+$sdtValue = isset($_GET['sdt']) ? $_GET['sdt'] : 'Giá trị không được cung cấp';
+$sdt = $sdtValue
 $delay = 1;
 $kho = array("0862628165", "0862628165", "0862628165", "0862628165", "0862628165", "0862628165", );
 if ($sdt == "0862628165"){
